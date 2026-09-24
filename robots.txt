@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Sitemap: https://propertylawyerinkolkata.co.in/sitemap10.xml
