@@ -120,7 +120,15 @@ const Footer = () => {
       {/* Bottom Copyright Bar */}
       <div className="bg-[#141414] py-5 px-4 border-t border-neutral-900">
         <p className="text-center text-xs sm:text-sm text-[#c88a2c] tracking-wide font-normal">
-          Copyright © 2026 Kalpataru Law Firm | Powered by Digital Exposure Online Services
+          Copyright © 2026 Kalpataru Law Firm | Powered by{' '}
+          <a
+            href="https://www.teamdeoskolkata.in/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline hover:text-white transition-colors"
+          >
+            Digital Exposure Online Services
+          </a>
         </p>
       </div>
     </footer>
